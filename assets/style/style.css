@@ -1,0 +1,72 @@
+
+html{
+    background-color: rgb(249, 224, 187);
+    display: flex;
+  justify-content: center;
+}
+h1{
+    color: rgb(39, 55, 77);
+    font-family: 'Caveat', cursive;
+    font-family: 'Slackside One', cursive;
+}
+#id{
+  margin-left: 30%
+}
+h2{
+    color:rgb(82, 109, 130);
+}
+h3{
+    color:rgb(195, 129, 84);
+}
+p{
+    color: rgb(82, 109, 130);
+}
+footer{
+
+    text-align: center;
+}
+.e {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  .text{
+    width: 200px;
+  }
+.column {
+    float: center;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    background-color: aliceblue;
+  }
+  .container {
+    padding:  16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .title {
+    color: grey;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button:hover {
+    background-color: #555;
+  }
